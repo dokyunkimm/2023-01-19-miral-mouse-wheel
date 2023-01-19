@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* 공통 */
+#wrapSub02 > div, #wrapSub03 > div{padding: 150px 0;}
+.hideTp{display: none;}
+.showTp{display: block;}
+
+/* ************  #wrapSub01  *****************/
+#wrapSub01 .conTtl{top: 0;right: 80px;}
+#wrapSub01 .conTtl > li > h1{font-size: 12vw;}
+#wrapSub01 .conTtl > li > span{font-size: 1.5vw;margin-left: 5px;}
+
+#wrapSub01 .conInr{display: flex;flex-direction: column;align-items: center;/* padding-top: 200px; */}
+#wrapSub01 .conInr .conBxWrp{width: 83%;}
+#wrapSub01 .conInr .conBxWrp .conBx{flex-direction: initial;width: 100%;padding-bottom: 30px;}
+#wrapSub01 .con04 .conInr .conBxWrp .conBx:last-child{padding-bottom: 0;}
+#wrapSub01 .conInr .conBxWrp .conBx:nth-child(2n){margin-left: 0;}
+#wrapSub01 .conInr .conBxWrp .conBx::before{right: auto;}
+#wrapSub01 .conInr .conBxWrp .conBx::before, #wrapSub01 .conInr .conBxWrp .conBx::after{left: 125px;}
+#wrapSub01 .conInr .conBxWrp .conBx:nth-child(2n)::before, #wrapSub01 .conInr .conBxWrp .conBx:nth-child(2n)::after{left: 125px;}
+#wrapSub01 .conInr .conBxWrp .conBx.conFir{padding-top: 195px;}
+#wrapSub01 .conInr .conBxWrp .conBx.conLst{padding-bottom: 150px;margin-bottom: 0;}
+
+
+#wrapSub01 .conInr .conBxWrp .conBx .txtBx, #wrapSub01 .conInr .conBxWrp .conBx:nth-child(2n) .txtBx{text-align: center;margin: 0;width: 250px;}
+#wrapSub01 .conInr .conBxWrp .conBx .imgBx{width: 34vw;}
+#wrapSub01 .conInr .conBxWrp .conBx:nth-child(2n) .imgBx{box-shadow: 20px 20px 60px rgba(0,0,0,0.2);}
+
+#wrapSub01 .conInr.on .conTtl{right: 140px;top: 140px;}
+
+#wrapSub01 .con01{padding-top: 150px;}
+#wrapSub01 .dot.dotPc{display: none;}
+#wrapSub01 .dot.dotTp{display: block;margin-top: 195px;left: 125px;}
+
+/* line */
+#wrapSub01 .conInr .conBxWrp .conBx::before{height: 28.333%;}
+#wrapSub01 .conInr .conBxWrp .conBx::after{height: 40.333%;}
+/* 텍스트 3줄 */
+#wrapSub01 .conInr .conBxWrp .conBx.txtTrd::before{height: 23.666%;}
+#wrapSub01 .conInr .conBxWrp .conBx.txtTrd::after{height: 33%;}
+/* 처음 */
+#wrapSub01 .conInr .conBxWrp .conBx.conFir::before{height: 58.333%;}
+#wrapSub01 .conInr .conBxWrp .conBx.conFir::after{height: 25.833%;}
+#wrapSub01 .conInr .conBxWrp .conBx.conFir.txtTrd::before{height: 52.166%;}
+#wrapSub01 .conInr .conBxWrp .conBx.conFir.txtTrd::after{height: 21.75%;}
+/* 마지막 */
+#wrapSub01 .conInr .conBxWrp .conBx.conLst::before{height: 21.641%;}
+#wrapSub01 .conInr .conBxWrp .conBx.conLst::after{height: 55.153%;}
+#wrapSub01 .conInr .conBxWrp .conBx.conLst.txtTrd::before{height: 18.833%;}
+#wrapSub01 .conInr .conBxWrp .conBx.conLst.txtTrd::after{height: 51.153%;}
+/* 개별 처음,마지막 */
+#wrapSub01 .con01 .conInr .conBxWrp .conBx.conFir::before{height: 16.333%;margin-top: 215px;}
+#wrapSub01 .con04 .conInr .conBxWrp .conBx.conLst{padding-bottom: 0;}
+#wrapSub01 .con04 .conInr .conBxWrp .conBx.conLst::before{height: 27%;}
+#wrapSub01 .con04 .conInr .conBxWrp .conBx:last-child::after{height: 33.333%;}
+
+#wrapSub01 .sct02 > p{font-size: 15px;}
+#wrapSub01 .sct02 .sldBtn{margin-top: 20px;}
+
+
+/* ************  #wrapSub02  *****************/
+#wrapSub02 .sldWrpTtl{padding-bottom: 80px !important;}
+#wrapSub02 .sldBtn{margin-top: 60px;}
+
+/* slide01 */
+#wrapSub02 .sldWrp01 .sldWrpTtl{padding-bottom: 0 !important;}
+
+/* slide02 */
+#wrapSub02 .sldWrp02 .sct01 > div{width: calc(100% / 2 - 15px);}
+#wrapSub02 .sldWrp02 .sct01 > div:nth-child(2n){margin-right: 0;}
+#wrapSub02 .sldWrp02 .sct01 > div:nth-child(3){margin-top: 30px;margin-right: 30px;}
+
+
+/* slide04 */
+#wrapSub02 .sldWrp04 .hideTp{display: none;}
+#wrapSub02 .sldWrp04 > div{flex-direction: column;}
+#wrapSub02 .sldWrp04 .sldWrpTtl{padding-bottom: 100px;}
+#wrapSub02 .sldWrp04 .sldWrpTtl > span{display: block;text-align: center;}
+#wrapSub02 .sldWrp04 .sldWrpTtl > h1{text-align: center;}
+#wrapSub02 .sldWrp04Inr{width: calc(100% - 120px);margin-left: 0;}
+#wrapSub02 .sldWrp04 .sldBtn.btnPc{display: none;}
+#wrapSub02 .sldWrp04 .sldWrp04Inr .sct01{display: flex;justify-content: center;}
+#wrapSub02 .sldWrp04 .sldBtn.btnMo{display: block;}
+#wrapSub02 .sldWrp04Inr .map .markBx .mark > a{padding: 9px 35px 9px 13px;font-size: 15px;}
+#wrapSub02 .sldWrp04Inr .map .markBx .mark > a::before{width: 14px;height: 14px;transform: rotate(45deg) translateX(-80%);bottom: -12px;}
+#wrapSub02 .sldWrp04Inr .map .markBx .mark > a::after{width: 13px;height: 13px;right: 15px;}
+
+
+
+
+
+/* ************  #wrapSub03  *****************/
+/* slide02 */
+#wrapSub03 .sldWrp02 .sct01{margin: 80px 0 70px;}
+#wrapSub03 .sldWrp02 .sct .imgBx{width: 397px;height: 250px;margin-right: 30px;background-position: 27% 43%;background-size: 1450px;}
+#wrapSub03 .sldWrp02 .sct02 .imgBx{margin: 0 0 0 30px;background-position: 73% 82%;}
+#wrapSub03 .sldWrp02 .sct .txtBx > h6{font-size: 20px;margin-bottom: 10px;}
+#wrapSub03 .sldWrp02 .sct .txtBx > p{font-size: 16px;}
+
+
+/* slide04 */
+#wrapSub03 .sldWrp04{padding: 150px 0;}
+#wrapSub03 .sldWrp04 .sct01{margin-top: 80px;}
+#wrapSub03 .sldWrp04 .sct02{margin-top: 120px;}
+#wrapSub03 .sldWrp04 .sctTtl > h1{font-size: 28px;line-height: 44px;}
+#wrapSub03 .sldWrp04 .sct .conBx{width: calc(100% - 100px)}
+
+
+
+/* slide05 */
+#wrapSub03 .sldWrp05{padding: 0 0 150px;}
+#wrapSub03 .sldWrp05 .sct01 > div{padding: 20px;}
+#wrapSub03 .sldWrp05 .sct01 .txtBx > a > div > p{margin-top: 7px;}
+

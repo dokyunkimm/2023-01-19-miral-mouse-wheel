@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face{
+    font-family:"NaverNanumSquareNeo";
+    font-weight: 100;
+    src:url(../font/woff/NanumSquareNeoTTF-aLt.woff);
+}
+
+@font-face{
+    font-family:"NaverNanumSquareNeo";
+    font-weight: 400;
+    src:url(../font/woff/NanumSquareNeoTTF-bRg.woff);
+}
+
+@font-face{
+    font-family:"NaverNanumSquareNeo";
+    font-weight: 600;
+    src:url(../font/woff/NanumSquareNeoTTF-cBd.woff);
+}
+
+@font-face{
+    font-family:"NaverNanumSquareNeo";
+    font-weight: 800;
+    src:url(../font/woff/NanumSquareNeoTTF-dEb.woff);
+}
+
+@font-face{
+    font-family:"NaverNanumSquareNeo";
+    font-weight: 900;
+    src:url(../font/woff/NanumSquareNeoTTF-eHv.woff);
+}
+
+@media screen and (min-width: 1500px) {
+	html, body{height:100%;}
+}
+html.ovfHdn, body.ovfHdn{overflow: hidden;}
+
+/* common style */
+.cmmnSctTtl{font-size: 60px; font-weight: 300; line-height: 80px; text-align: center; color: #111211;}
+.cmmnSctTtl > span{font-weight: 800;}
+.lgtGreen{color: #7bbd2a;}
+.drkGreen{color: #009542;}
+
+
+
+.txtBg{z-index: 1; position: relative; display: inline-block; padding: 5px 3px 4px; transition: width 0.5s;}
+.txtBg::before{width: 0; transition: width 0.5s; z-index: -1; position: absolute; left: 0; top: 0; content: ''; display: block; height: 100%; }
+.txtBg.bgClr::before{width: 100%; transition: width 0.5s;}
+.lgtGreenBg::before{background-color: #7bbd2a;}
+.drkGreenBg::before{background-color: #009542;}
+
+
+
+
+
+
+html, body{min-width: 320px;}
+html.on, body.on{overflow: hidden;}
+body *{font-family: "NaverNanumSquareNeo",sans-serif; box-sizing: border-box; letter-spacing: -0.04em; word-break: keep-all; -webkit-text-size-adjust: none;}
+.nsk{font-family:"Noto Sans KR" !important;}
+
+.fdUp{overflow: hidden;}
+.fdUp > s{display: inline-block; transform: translateY(100%); text-decoration: none; transition: transform 1s;}
+.txtCnt01 .fdUp > s{white-space: nowrap;}
+.fdUp.active > s{transform: translateY(0);}
+
+.fdUp02{opacity: 0; transform: translateY(100px); transition: all 1s; pointer-events: none;}
+.fdUp02.active{opacity: 1; transform: translateY(0); pointer-events: all;}
+
+.ttlFdUp{overflow: hidden;}
+.ttlFdUp > s{display: block; transform: translateY(100%); text-decoration: none; transition: all 1s;}
+.ttlFdUp.on > s{transform: translateY(0);}
+

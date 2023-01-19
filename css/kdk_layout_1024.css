@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+
+/* common style */
+.innr{width: calc(100% - 40px);}
+.cmmnSctTtl{font-size: 42px; line-height: 62px;}
+
+
+/* 비주얼 영역 */
+/* .mrlCntnr .vslSct{height: 100vh;} */
+.mrlCntnr .vslSct > div > h2{font-size: 62px; line-height: 82px;}
+
+
+/* 섹션 02 */
+/* .sct02 > div{background-size: auto 100vh;}
+.sct02 > div .txtCnt01 > h2.on{background-size: auto 100vh;} */
+.sct02 > div .txtCnt02 > p{font-size: 24px; line-height: 34px;}
+.sct02 > div .txtCnt02 > h2{font-size: 62px; line-height: 70px;}
+
+
+
+/* 섹션 03 */
+.sct03 > div{margin: 180px 0px 120px 0; padding: 0 20px; flex-direction: column; align-items: center;}
+/* .sct03 .lftImg{margin-left: -25vw; width: 100%;} */
+.sct03 .card{width: 48.78125vw; height: 36.0859375vw; border-radius: 0.9765625vw; backdrop-filter: blur( 0.520834vw ); -webkit-backdrop-filter: blur( 0.520834vw ); border: 1px solid rgba(215, 218, 230, 0.5);}
+.sct03 .card > img{width: 33.3984375vw; top: calc(50% + 2.9296875vw); left: calc(50% - 3.90625vw);}
+.sct03 .crcl01{width: 29.0625vw; height: 29.0625vw; top: -10.7604vw;}
+.sct03 .crcl02{width: 12.6484375vw; height: 12.6484375vw; top: 29.6vw; right: -5.90625vw;}
+.sct03 .txt{padding-top: 0; margin-top: 80px; margin-left: 0;}
+.sct03 .txt > p{}
+.sct03 .txt > p > br{display: none;}
+.sct03 .txt > p > br.onlyTblt{display: inline-block;}
+
+
+
+/* 축하메세지 동영상 섹션 */
+.vdoCntWrp > ul{flex-direction: column;}
+.vdoCntWrp > ul > li{width: 100%; margin-right: 0; margin-bottom: 40px;}
+.vdoCntWrp > ul > li:last-child{margin-bottom: 0;}
+.lineLft{display: none;}
+.lineRgt{display: none;}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .sct02 > div .txtCnt02 > p{font-size: 22px; line-height: 28px;}
+    .sct02 > div .txtCnt02 > h2{font-size: 52px; line-height: 58px;}
+}
+
+
+
+/* cih 추가 */
+#wrapSub01 .popUpInr{width: calc(100% - 40px);height: 0;padding-bottom: 56.25%;position: relative;}
+#wrapSub01 .popUpInr .ytbBx{position: absolute;}
+#wrapSub01 .closeBtn{width: 45px;height: 45px;right: auto;top: -60px;left: 50%;transform: translateX(-50%);}

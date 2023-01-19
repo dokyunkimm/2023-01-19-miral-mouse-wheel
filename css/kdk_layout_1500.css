@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+
+
+/* 배경 인터렉션 영역 */
+/* 섹션 01 이미지 */
+.miralHstryImg > div > div > div > ul > li .imgBx{margin-bottom: 12px;}
+.miralHstryImg > div > div > div > ul > li p{font-size: 20px;}
+/* 오른쪽 이미지 영역 */
+.miralHstryImg > div > div > .rghtImgBx > ul > li:nth-child(2) .imgBx{margin-left: 0;}
+
+
+
+
+
+.sct03 .txt > p{font-size: 25px; line-height: 55px;}
+
+
+
+/* 메인 풀페이지 형식으로 인해 추가 된 css */
+.sctPcScrlBx{height: 100%; overflow: visible;}
+.sct02 > div{height: 100vh;}
+.sct02 > div .txtCnt01 > h2{transition: font-size 0.05s cubic-bezier(0,-0.03,.35,1.01), font-weight 0.05s, line-height 0.05s cubic-bezier(0,-0.03,.35,1.01);}
+
+.sct03{height: auto;}
+.sct03 > div{margin: 180px 0px 120px 13.54vw;}
+
+
+.sct04{height: auto; padding-bottom: 120px;}
+/* ======================================== */
+
+
+
+
+
+/* cih 추가 */
+#wrapSub01 .closeBtn{width: 50px;height: 50px;right: -75px;}
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+
+
+
+/* 배경 인터렉션 영역 */
+/* 섹션 01 이미지 */
+
+
+
+.miralHstryImg > div > div > div > ul > li .imgBx{margin-bottom: 12px;}
+.miralHstryImg > div > div > div > ul > li p{font-size: 20px;}
+/* 왼쪽 이미지 영역 */
+.miralHstryImg > div > div > .lftImgBx > ul > li:nth-child(1){margin-left: 5vw; margin-bottom: 260px;}
+.miralHstryImg > div > div > .lftImgBx > ul > li:nth-child(2){margin-bottom: 270px;}
+.miralHstryImg > div > div > .lftImgBx > ul > li:nth-child(3){}
+
+/* 오른쪽 이미지 영역 */
+
+
+
+
+.sct03 > div::before{width: 31.67vw; height: 16.4vw; top: -6.625vw; right: -2.9%;}
+
+
+
+ 

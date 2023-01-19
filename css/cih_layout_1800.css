@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* ************  #wrapSub02  *****************/
+
+
+/* slide03 swiper */
+#wrapSub02 .sldWrp03 .sct01 .swiper-slide{margin: 0 80px;width: 1200px;height: 450px;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx{padding: 60px 0 0 50px;}
+#wrapSub02 .swiperBtn{width: 1380px;}
+
+
+
+
+@media screen and (max-width: 1650px) {
+
+    /* slide04 */
+    #wrapSub02 .sldWrp04Inr .map .markBx .mark:nth-child(6) > a{top: 44.7%;left: 9.5%;}
+    #wrapSub02 .sldWrp04Inr .map .markBx .mark:nth-child(7) > a{top: 49.8%;left: 22.7%;}
+    
+
+    
+}

@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/* 공통 */
+.sldWrpTtl > h1{font-size: 42px;}
+
+
+/* ************  #wrapSub01  *****************/
+#wrapSub01 .sldWrp01Bg{width: 470px;height: 138px;}
+
+/* popUp */
+#wrapSub01 .popUpInr{width: calc(100% - 110px);height: 73vw;padding: 20px 20px 25px;}
+#wrapSub01 .swiperBtn{width: calc(100% - -70px);}
+#wrapSub01 .swiperBtnNext, #wrapSub01 .swiperBtnPrev{width: 19px;height: 38px;}
+#wrapSub01 .closeBtn{width: 45px;height: 45px;right: auto;top: -60px;left: 50%;transform: translateX(-50%);}
+#wrapSub01 .swiper-container-horizontal>.swiper-pagination-bullets, #wrapSub01 .swiper-pagination-custom, #wrapSub01 .swiper-pagination-fraction{bottom: 25px;}
+
+#wrapSub01.mapPop .popUpInr{height: 72vw;}
+#wrapSub01 .popUpSwiper .txtBx > p{height: 14vw;font-size: 13px;line-height: 26px;}
+#wrapSub01 .popUpSwiper .txtBx > strong{font-size: 27px;margin-bottom: 7px;}
+#wrapSub01 .popUpSwiper .txtBx > strong > span{font-size: 18px;}
+
+#wrapSub01 .conTtl{right: 50px;}
+#wrapSub01 .conTtl > li > h1{font-size: 12.5vw;}
+#wrapSub01 .conTtl > li > span{margin-left: 3px;font-size: 2.3vw;}
+#wrapSub01 .conInr .conBxWrp .conBx{padding-bottom: 20px;width: 100%;}
+#wrapSub01 .conInr .conBxWrp .conBx.conFir{padding-top: 130px;}
+#wrapSub01 .conInr .conBxWrp .conBx .txtBx, #wrapSub01 .conInr .conBxWrp .conBx:nth-child(2n) .txtBx{width: 205px;}
+#wrapSub01 .conInr .conBxWrp .conBx::before, #wrapSub01 .conInr .conBxWrp .conBx::after{left: 102px;}
+#wrapSub01 .conInr .conBxWrp .conBx:nth-child(2n)::before, #wrapSub01 .conInr .conBxWrp .conBx:nth-child(2n)::after{left: 102px;}
+#wrapSub01 .dot.dotTp{left: 102px;}
+
+#wrapSub01 .conInr.on .conTtl{right: 70px;}
+
+#wrapSub01 .dot.dotTp{margin-top: 130px;width: 15px;}
+#wrapSub01 .con01{padding-top: 120px;}
+#wrapSub01 .con01 .conInr .conBxWrp .conBx.conFir::before{margin-top: 145px;height: 12.333%;}
+#wrapSub01 .conInr .conBxWrp .conBx .txtBx > h6{font-size: 14px;line-height: 1.4;}
+#wrapSub01 .conInr .conBxWrp .conBx.conLst{padding-bottom: 100px;}
+#wrapSub01 .conInr .conBxWrp .conBx.conLst.txtTrd::before{height: 14.833%;}
+#wrapSub01 .conInr .conBxWrp .conBx.conFir.txtTrd::before{height: 57.166%;}
+
+#wrapSub01 .sct02{padding: 60px 0 140px;}
+#wrapSub01 .sct02 > p{font-size: 14px;}
+
+
+/* ************  #wrapSub02  *****************/
+#wrapSub02 .sldWrpTtl{padding-bottom: 60px !important;}
+
+/* slide01 */
+#wrapSub02 .sldWrp01Bg{width: 450px;height: 171px;}
+
+/* slide02 */
+#wrapSub02 .sldWrp02 .sct01 > div{height: 230px;}
+#wrapSub02 .sldWrp02 .sct01 > div .imgBx{width: 8vh;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx{margin-top: 5px;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li{font-size: 14px;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > h2{font-size: 28px;}
+#wrapSub02 .sldWrp02 .sct01 > div .txtBx > li > p{/* font-size: 14px; */margin-top: 13px;}
+
+/* slide03 */
+#wrapSub02 .sldWrp03 .sct01 .swiper-slide{width: calc(100% - 40px);padding-bottom: 35px;margin: 0 30px;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx{border-radius: 0 5px 5px 0;/* overflow: hidden; */height: 250px;padding: 35px 40px;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .txtBx > p{line-height: 25px;}
+#wrapSub02 .sldWrp03 .sct01 .swiperCon .imgBx{height: auto;}
+
+
+
+#wrapSub02 .swiperBtn{display: none;}
+#wrapSub02 .swiper-container-horizontal>.swiper-pagination-bullets, #wrapSub02 .swiper-pagination-custom, #wrapSub02 .swiper-pagination-fraction{bottom: 0;}
+#wrapSub02 .swiper-pagination-bullet{background-color: #009542;}
+
+/* slide04 */
+#wrapSub02 .sldWrp04{padding: 120px 0 140px;}
+
+
+
+/* ************  #wrapSub03  *****************/
+/* slide01 */
+#wrapSub03 .sldWrp01Bg{width: 490px;height: 141px;}
+
+
+/* slide02 */
+#wrapSub03 .sldWrp02 .sct01{margin: 60px 0;}
+#wrapSub03 .sldWrp02 .sct .imgBx{width: 430px;height: 230px;background-size: 1800px;}
+#wrapSub03 .sldWrp02 .sct .txtBx > h6{font-size: 20px;margin-bottom: 5px;}
+#wrapSub03 .sldWrp02 .sct .txtBx > p{font-size: 15px;line-height: 26px;}
+#wrapSub03 .sldWrp02 .sct .sldBtn{margin-top: 20px;}
+#wrapSub03 .sldWrp02 .sct02 .imgBx{background-position: 50% 75%;}
+
+
+/* slide03 */
+#wrapSub03 .sldWrp03 .sldWrpInr{margin: 60px auto 0;}
+#wrapSub03 .sldWrp03 .vdBx::after{width: 60px;height: 45px;}
+#wrapSub03 .sldWrp03 .conBx > ul{flex-wrap: wrap;}
+#wrapSub03 .sldWrp03 .conBx > ul > li{width: calc(50% - 5px);}
+#wrapSub03 .sldWrp03 .conBx > ul > li:nth-child(3), #wrapSub03 .sldWrp03 .conBx > ul > li:nth-child(4){margin-top: 10px;}
+#wrapSub03 .sldWrp03 .conBx > ul > li > a{height: 65px;}
+#wrapSub03 .sldWrp03 .conBx .imgBx{width: 50px;margin: 0 0 0 7px;}
+#wrapSub03 .sldWrp03 .conBx .txtBx{width: calc(100% - 60px);}
+#wrapSub03 .sldWrp03 .conBx .txtBx > h3{font-size: 13px;}
+#wrapSub03 .sldWrp03 .conBx .txtBx > p{font-size: 13px;margin-left: 3px;}
+
+
+/* slide04 */
+#wrapSub03 .sldWrp04 .sct01{margin-top: 60px;}
+#wrapSub03 .sldWrp04 .sctTtl > h1{font-size: 25px;line-height: 40px;}
+#wrapSub03 .sldWrp04 .sct .conBx{width: calc(100% - 40px);margin: 0 auto;}
+#wrapSub03 .sldWrp04 .sct .conFlx > img{width: 75%;}
+#wrapSub03 .sldWrp04 .sct .sign > h2{font-size: 15px;line-height: 19px;}
+#wrapSub03 .sldWrp04 .sct .conFlx p{font-size: 13px;line-height: 26px;}
+
+
+
+/* slide05 */
+#wrapSub03 .sldWrp05{padding: 0 0 140px;}
+#wrapSub03 .sldWrp05 .sct01{flex-direction: column;justify-content: initial;}
+#wrapSub03 .sldWrp05 .sct01 > div{width: 100%;padding: 30px;box-shadow: 0 0 30px rgba(0,0,0,0.2);}
+#wrapSub03 .sldWrp05 .sct01 > div:not(:last-child){margin-bottom: 30px;}
+#wrapSub03 .sldWrp05 .sct01 .imgBx{margin-bottom: 20px;}
+#wrapSub03 .sldWrp05 .sct01 .txtBx > a > div > span{font-size: 15px;}
+#wrapSub03 .sldWrp05 .sct01 .txtBx > a > div > p{font-size: 20px;margin-top: 10px;}
+#wrapSub03 .sldWrp05 .sct01 .txtBx .btnRig{width: 30px;height: 30px;/* margin-top: 10px; */}
+#wrapSub03 .sldWrp05 .sct01 .txtBx .btnRig > img{width: 7px;}
+
+
+
+@media screen and (max-width: 600px) {
+
+    /* ************  #wrapSub01  *****************/
+    
+    #wrapSub01 .conInr .conBxWrp{width: 90%;}
+    #wrapSub01 .conTtl{right: 25px;}
+    #wrapSub01 .conInr.on .conTtl{right: 45px;}
+
+
+    /* ************  #wrapSub03  *****************/
+    #wrapSub03 .sldWrp03 .conBx .txtBx{flex-direction: column;width: calc(100% - 65px);}
+    #wrapSub03 .sldWrp03 .conBx .txtBx > p{margin-top: 5px;margin-left: 0;}
+
+
+
+}
+
